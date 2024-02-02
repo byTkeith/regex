@@ -16,6 +16,7 @@ public class Regex {
             System.out.println("ASKIES file not found.");
         }
         for(String fileValues: ipFile){//this loop loops over the entire file line by line
+            String[] eachIpUnit=fileValues.split(".");//splits each line by the "."
             
         }
         
