@@ -15,6 +15,9 @@ public class Regex {
         }catch(FileNotFoundException e){
             System.out.println("ASKIES file not found.");
         }
+        for(String fileValues: ipFile){//this loop loops over the entire file line by line
+            
+        }
         
     }
 }
