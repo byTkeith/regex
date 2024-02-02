@@ -23,6 +23,8 @@ public class Regex {
             }
             for(int i=0;i<eachIpUnit.length;i++){//loops through the split values if above 4 then its not an ip address
                 char[] unitLength=eachIpUnit[i].toCharArray();//splits each unit to char values
+                int numValues=Integer.parseInt(eachIpUnit[i]);//converst each unit to a int value
+                if(unitLength.length>3||)
                 
             }
         }
